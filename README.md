@@ -41,11 +41,11 @@ cd foodgram
 ```
 Скачайте файл docker-compose.production.yml
 ```bash
-curl -o docker-compose.production.yml https://raw.githubusercontent.com/Andron1215/kittygram_final/main/docker-compose.production.yml
+curl -o docker-compose.production.yml https://raw.githubusercontent.com/Timofey3085/foodgram-project-react/main/docker-compose.production.yml
 ```
 Скачайте файл .env и отредактируйте его:
 ```bash
-curl -o .env https://github.com/Andron1215/foodgram-project-react/main/.env.example
+curl -o .env https://github.com/Timofey3085/foodgram-project-react/main/.env.example
 nano .env
 ```
 # Скачайте и запустите проект:
@@ -67,7 +67,7 @@ sudo docker compose -f docker-compose.production.yml exec backend cp -r /app/sta
 # Запуск проекта с файлов репозитория
 Клонируйте репозиторий:
 ```bash
-git clone https://github.com/Andron1215/foodgram-project-react.git
+git clone https://github.com/Timofey3085/foodgram-project-react.git
 ```
 # Запустите проект:
 ```bash
