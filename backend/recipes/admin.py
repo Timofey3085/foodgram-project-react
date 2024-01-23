@@ -1,9 +1,9 @@
 import csv
+from os import path
 
 from django import forms
 from django.contrib import admin
-from django.shortcuts import render, redirect
-from django.urls import path
+from django.shortcuts import redirect, render
 
 from .models import (Favorite, Ingredient, Recipe, RecipeIngredient, RecipeTag,
                      ShoppingCart, Tag, Unit)
