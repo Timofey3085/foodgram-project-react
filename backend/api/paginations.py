@@ -1,6 +1,5 @@
-from rest_framework.pagination import PageNumberPagination
-
 from recipes.constants import Pagination
+from rest_framework.pagination import PageNumberPagination
 
 
 class CustomPageNumberPagination(PageNumberPagination):
