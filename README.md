@@ -1,3 +1,4 @@
+[![Main Foodgram workflow](https://github.com/Timofey3085/foodgram-project-react/actions/workflows/main.yml/badge.svg)](https://github.com/Timofey3085/foodgram-project-react/actions/workflows/main.yml)
 ## ОПИСАНИЕ ПРОЕКТА 
 
 # Foodgram — онлайн-сервис для обмена кулинарными рецептами и нахождения новых кулинарных идей.
