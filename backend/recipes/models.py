@@ -2,7 +2,6 @@ from colorfield.fields import ColorField
 from django.contrib.auth import get_user_model
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
-
 from recipes.constants import RecipesModels
 
 User = get_user_model()
@@ -20,7 +19,7 @@ class Tag(models.Model):
     slug = models.SlugField(unique=True, verbose_name='Слаг')
 
     class Meta:
-        ordering = ['name',]
+        ordering = ['name']
         verbose_name = 'Тег'
         verbose_name_plural = 'Теги'
 
@@ -173,7 +172,7 @@ class RecipeIngredient(models.Model):
                 name='unique_recipe_ingredient',
             )
         ]
-        ordering = ['recipe',]
+        ordering = ['recipe']
         verbose_name = 'Ингредиент рецепта'
         verbose_name_plural = 'Ингредиенты рецепта'
 
