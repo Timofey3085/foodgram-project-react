@@ -3,7 +3,7 @@
 
 # Foodgram — онлайн-сервис для обмена кулинарными рецептами и нахождения новых кулинарных идей.
 
-(https://foodgramshop.ddns.net/)
+# https://foodgramshop.ddns.net/
 
 Технологии
 Python 3.9
