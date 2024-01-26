@@ -1,7 +1,8 @@
+from colorfield.fields import ColorField
 from django.contrib.auth import get_user_model
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
-from colorfield.fields import ColorField
+
 from recipes.constants import RecipesModels
 
 User = get_user_model()
