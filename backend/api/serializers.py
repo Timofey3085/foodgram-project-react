@@ -3,10 +3,11 @@ import base64
 from django.contrib.auth import get_user_model
 from django.core.files.base import ContentFile
 from djoser.serializers import UserSerializer
+from rest_framework import serializers
+
 from recipes.constants import RecipesModels
 from recipes.models import (Favorite, Ingredient, Recipe, RecipeIngredient,
                             RecipeTag, ShoppingCart, Tag, Unit)
-from rest_framework import serializers
 from users.models import Subscription
 
 User = get_user_model()
@@ -288,26 +289,6 @@ class RecipesWriteSerializer(serializers.ModelSerializer):
         instance = super().update(instance, validated_data)
         instance.save()
         return instance
-
-    def _create_recipe_ingredients(self, instance, ingredients):
-        RecipeIngredient.objects.bulk_create(
-            [
-                RecipeIngredient(
-                    recipe=instance,
-                    ingredient=ingredient.get('id'),
-                    amount=ingredient.get('amount'),
-                )
-                for ingredient in ingredients
-            ]
-        )
-
-    def _create_recipe_tags(self, instance, tags):
-        RecipeTag.objects.bulk_create(
-            [
-                RecipeTag(recipe=instance, tag=tag_instance)
-                for tag_instance in tags
-            ]
-        )
 
     def to_representation(self, instance):
         serializer = RecipesReadSerializer(
