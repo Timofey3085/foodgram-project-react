@@ -88,5 +88,5 @@ sudo docker compose -f docker-compose.yml exec backend mkdir -p /static/static/
 sudo docker compose -f docker-compose.yml exec backend cp -r /app/static/. /static/static/
 ```
 
-Авторы
+Автор
 [Timofey - Razborshchikov](https://github.com/Timofey3085)
