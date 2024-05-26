@@ -1,19 +1,22 @@
 [![Main Foodgram workflow](https://github.com/Timofey3085/foodgram-project-react/actions/workflows/main.yml/badge.svg)](https://github.com/Timofey3085/foodgram-project-react/actions/workflows/main.yml)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Timofey+Python+developer)](https://git.io/typing-svg) 
 ## ОПИСАНИЕ ПРОЕКТА 
 
 # Foodgram — онлайн-сервис для обмена кулинарными рецептами и нахождения новых кулинарных идей.
 
 # https://foodgramshop.ddns.net/
 
-Технологии
-Python 3.9
-Django 3.2.3
-Node.js 13.12.0
-React 17.0.1
-PostgreSQL 13
-Gunicorn 21.2.0
-Nginx
-Docker
+Технологии:
+- Python 3.9
+- Django 3.2.3
+- Node.js 13.12.0
+- React 17.0.1
+- PostgreSQL 13
+- Gunicorn 21.2.0
+- Nginx
+- Docker
 
 # Установка и запуск для удалённого сервера на Linux
 
